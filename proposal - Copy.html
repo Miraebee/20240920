@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미래비의 대답</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Arrange items vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffc0cb; /* Light pink background */
+            font-family: 'Gowun Batang', serif; /* Use Gowun Batang font */
+            text-align: center; /* Center align all text */
+        }
+        h1 {
+            color: #333; /* Dark gray text */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 15px;
+            margin-top: 20px;
+            border: 2px solid transparent;
+            background-color: #efe4f7; /* Updated button color */
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #d3cde8; /* Slightly darker on hover */
+        }
+        #message {
+            margin-top: 20px; /* Space between button and message */
+            color: #333; /* Dark gray text */
+        }
+    </style>
+    <script>
+        function showMessage() {
+            document.getElementById('message').innerText = '대답해줘서 고마워❤︎❤︎❤︎ 우리 평생 귀엽게 사랑하자❤︎';
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>기철아 너에게 할말이있어, 나랑 결혼해줄래?</h1>
+        <button onclick="showMessage()">응!</button>
+        <div id="message"></div> <!-- Message area -->
+    </div>
+</body>
+</html>
